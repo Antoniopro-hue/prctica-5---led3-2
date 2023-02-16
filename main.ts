@@ -1,4 +1,6 @@
 let control2 = 0
+led.enable(false)
+control2 += 0
 basic.forever(function () {
     for (let index = 0; index < 4; index++) {
         pins.digitalWritePin(DigitalPin.P0, 1)
